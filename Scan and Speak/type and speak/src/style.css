@@ -1,0 +1,305 @@
+/* Form Container */
+.form-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+  }
+  
+  /* Form */
+  form {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  /* Label */
+  label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  }
+  
+  /* Input */
+  input[type="text"],
+  select {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  }
+  
+  /* Range Input */
+  input[type="range"] {
+  width: 100%;
+  }
+  
+  /* Rate and Pitch Value */
+  .rate-value,
+  .pitch-value {
+  font-size: 18px;
+  margin-bottom: 30px;
+  }
+  
+  /* Clearfix */
+  .clearfix {
+  clear: both;
+  }
+  
+  /* Controls */
+  .controls {
+  display: flex;
+  justify-content: center;
+  }
+  
+  /* Play Button */
+  .play-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 10px;
+  }
+  
+  #play:hover {
+  background-color: #3e8e41;
+  }
+
+
+.record-audio {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+    
+  .record-audio:hover {
+    background-color: #3e8e41;
+    cursor: pointer;
+  }
+    
+.record-audio p {
+  margin: 0;
+}
+
+.clip{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+body {
+  background-color: #0f0f1a;
+  font-family: 'Poppins', sans-serif;
+  color: #e0e0ff;
+  margin: 0;
+  padding: 40px;
+}
+
+/* Form Container */
+.form-container {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(173, 216, 230, 0.2);
+  backdrop-filter: blur(8px);
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Heading */
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fdf38b;
+  text-shadow: 0 0 10px #8be9fd;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label */
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffb6c1;
+}
+
+/* Input */
+input[type="text"],
+select {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1f1f2e;
+  color: #e0e0ff;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(139, 233, 253, 0.2);
+}
+
+/* Range Input */
+input[type="range"] {
+  width: 100%;
+  accent-color: #ff79c6;
+}
+
+/* Rate and Pitch Value */
+.rate-value,
+.pitch-value {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #bd93f9;
+}
+
+/* Clearfix */
+.clearfix {
+  clear: both;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+/* Play Button */
+.play-btn {
+  background: #06ecec;
+  color: #0f0f1a;
+  padding: 12px 25px;
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 15px #20d3ea;
+  transition: 0.3s ease-in-out;
+  margin-left: 80px;
+  
+}
+
+.play-btn:hover {
+  background: #2ecc71;
+  box-shadow: 0 0 25px #50fa7b;
+}
+
+/* Record Audio */
+.record-audio {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 20px;
+  background: #ff79c6;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ff79c6;
+  margin: auto;
+}
+
+.record-audio:hover {
+  background-color: #ff4da6;
+  box-shadow: 0 0 25px #ff79c6;
+  cursor: pointer;
+}
+
+.record-audio p {
+  margin: 0;
+}
+
+.clip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+/* Glowy Navbar CSS */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d0d0d;
+  color: #fff;
+}
+
+.navbar {
+  background: #0d0d0d;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.2);
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ff8fe8;
+  text-decoration: none;
+  text-shadow: 0 0 10px #ff8fe8;
+  transition: 0.3s ease;
+}
+
+.logo:hover {
+  color: #ffffff;
+  text-shadow: 0 0 15px #ff8fe8;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  font-weight:bolder;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: #ff99dd;
+  box-shadow: 0 0 10px #ff99dd;
+  transition: 0.4s ease;
+}
+
+.nav-links a:hover {
+  color: #ff99dd;
+  text-shadow: 0 0 8px #ff99dd;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
